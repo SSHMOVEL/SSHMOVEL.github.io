@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro SSH Movel</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('https://www.dropbox.com/scl/fi/d9ejeiwuuwidv1p7r5mh8/20240213_152455.jpg?rlkey=s28swh6hxpc7uvrwyv3bixsbd&dl=1');
+            background-size: cover;
+        }
+        #form-container {
+            text-align: center;
+            background-color: #000000; /* Fundo do formulário transparente */
+            padding: 50px; /* Espaçamento interno */
+            border-radius: 50px; /* Cantos arredondados */
+            position: relative; /* Adiciona posicionamento relativo para o conteúdo adicional */
+            width: 100%; /* Define a largura do formulário */
+            max-width: 500px; /* Define a largura máxima do formulário */
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            color: #007bff; /* Cor do texto */
+        }
+        button {
+            background-color: #007bff; /* Cor de fundo do botão */
+            color: white; /* Cor do texto do botão */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #000000; /* Cor de fundo do botão quando hover */
+        }
+        #form-container p {
+            position: absolute; /* Posiciona o conteúdo adicional absolutamente dentro do formulário */
+            bottom: -20px; /* Ajusta a posição vertical do conteúdo adicional */
+            left: 0; /* Alinha o conteúdo adicional à esquerda */
+            right: 0; /* Alinha o conteúdo adicional à direita */
+            color: white;
+            top: 420px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="form-container">
+        <h1>🌐CADASTRO SSH MOVEL🌐</h1>
+        <form action="#" method="POST">
+            <label for="nome" style="color: white;">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email" style="color: white;">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="username" style="color: white;">Nome de usuário:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <button onclick="location.href=''">CADASTRAR</button>
+            <p>PARA VOCÊ SE CADASTRAR VOCÊ NÃO PODE COLOCAR O EMAIL COM @GMAIL MAIS SO O NOME O EMAIL VIU </p>
+        </form>
+    </div>
+</body>
+</html>
